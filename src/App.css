@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background: url("https://media.giphy.com/media/jygQtwLaRleQ8/giphy.gif") no-repeat fixed center; 
 }
 
 .App-logo {
@@ -21,6 +22,7 @@
 .App-link {
   color: #61dafb;
 }
+
 
 @keyframes App-logo-spin {
   from {

@@ -1,25 +1,30 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import Player from './Player';
+import Modal from'./Modal';
 import './App.css';
+import './Player.css'
+
 
 class App extends Component {
+
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+      
+      <Player
+          player='Player 1 PRESS START'
+          name='Zangief'
+          year='1 juin 1956'
+          image="https://giffiles.alphacoders.com/131/13197.gif" alt="Card image cap"
+          />
+
+        <Player
+           player='Player 2 PRESS START'
+           name='Alex'
+           year='3 août 1965'
+           image="https://giffiles.alphacoders.com/132/13200.gif" alt="Card image cap"
+           />
+
       </div>
     );
   }
